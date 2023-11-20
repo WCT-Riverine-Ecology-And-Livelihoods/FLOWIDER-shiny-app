@@ -268,7 +268,7 @@ ui <- tagList(
                       tags$li(strong("Paper :"), "Ramya Roopa, S. & Kelkar, N. (2023). FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track water levels in large rivers of India’s Gangetic plains. Hydrological Processes.")
                     ),
                     h4(strong("Code Availability"), style = "font-family: Avenir"),
-                    tags$p("The", tags$i(class = "fab fa-r-project", title = "R Project"), "code for this app is publicly available in this", tags$i(class = "fa-brands fa-github", title="Github"), "repository.")
+                    tags$p("The", tags$i(class = "fab fa-r-project", title = "R Project"), "code for this app is publicly available in",  tags$a(href = "https://github.com/WCT-Riverine-Ecology-And-Livelihoods/FLOWIDER-shiny-app/tree/main", "this", target = "_blank"), tags$i(class = "fa-brands fa-github", title="Github"), "repository.")
                     )
         )
 )
