@@ -392,10 +392,10 @@ station_metadata_DT <- reactive({
   station_metadata_transposed <- station_location %>% filter(station %in% c(unlist(vals$station))) %>% t()
   station_metadata_df <- data.frame(cbind(rownames(station_metadata_transposed), station_metadata_transposed))
   if(length(unlist(vals$station)) == 2){
-    colnames(station_metadata_df) <- c("Variable", station_metadata_df[3,2], station_metadata_df[3,3])
+    colnames(station_metadata_df) <- c("stations", station_metadata_df[3,2], station_metadata_df[3,3])
     rownames(station_metadata_df) <- NULL
   } else if(length(unlist(vals$station)) == 1){
-    colnames(station_metadata_df) <- c("Variable", station_metadata_df[3,2])
+    colnames(station_metadata_df) <- c("station", station_metadata_df[3,2])
     rownames(station_metadata_df) <- NULL
   }
   station_metadata_df 
