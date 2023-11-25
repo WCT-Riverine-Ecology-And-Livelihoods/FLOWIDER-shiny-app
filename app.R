@@ -176,9 +176,9 @@ ui <- tagList(
                       app provides a web-based interface to track flood water levels of 107 sites across 24  Gangetic plains rivers – in one place, for researchers and conservationists – who can select rivers and sites based on species of interest. 
                       The database is curated from publicly available data provided by state water resources department websites."), 
                     h4(strong("Description"), style = "font-family: Avenir"),
-                    p(strong("FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track water levels in large rivers of India’s Gangetic plains")),
+                    p(strong("FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track flood-season water levels of large rivers of India’s Gangetic plains")),
                     p("Accessing and analysing river flow water level data is crucial for scientists, students, and conservationists interested in hydrological monitoring for studies on river ecosystems, species ecology, and human livelihood dependence. In India’s Gangetic plains, hydrological data on river water levels during the flood-season (June to October) are made available in the public domain by government water resource departments on their web portals with the objective of flood disaster risk management and as a warning system. 
-                      These data are, however, maintained as daily bulletins that do not make it easy to access time-series data in one place or utilize it due to the variable and non-translatable formats used to store the data."),
+                      These data are, however, maintained as daily bulletins in scattered web sources that make it difficult to access time-series data in one place, and utilize, due to variable and non-translatable formats used."),
                     p("To overcome this issue, we present FLOWIDER 1.0, a web-based graphical and metadata interface developed using the", tags$i(class = "fab fa-r-project", title = "R Project"), "Shiny package, to observe and track flood-season water level data from 24 rivers and 107 gauging stations across six states within India’s Gangetic plains. 
                       FLOWIDER combines flood-season water level data from different information sources, presents a map view of gauging sites, and offers date-based graphical options to track the time-series of up to two stations at a time, for various applications. 
                       Some applications include:-"),
@@ -258,14 +258,15 @@ ui <- tagList(
                     p("Riverine Ecosystems and Livelihoods programme, Wildlife Conservation Trust"),
                     h4(strong("Credits"), style = "font-family: Avenir"),
                     tags$ul(
-                      tags$li(strong("Conceptualization:"), "Nachiket Kelkar & Ramya Roopa S."),
-                      tags$li(strong("App development:"), "Ramya Roopa S."),
-                      tags$li(strong("Data entry and management support:"), "Nachiket Kelkar, Ramya Roopa S., Subhasis Dey, Akshay Kumar, Ravindra Kumar, Soumen Bakshi & Kanhaiya Kumar Das.")
+                      tags$li(strong("Conceptualization:"), "Nachiket Kelkar & S.Ramya Roopa"),
+                      tags$li(strong("App development:"), "S.Ramya Roopa"),
+                      tags$li(strong("Data entry and management support:"), "Nachiket Kelkar, S.Ramya Roopa, Subhasis Dey, Akshay Kumar, Ravindra Kumar, Soumen Bakshi & Kanhaiya Kumar Das.")
                     ),
                     h4(strong("Citation"), style = "font-family: Avenir"),
                     tags$ul(
-                      tags$li(strong("App :"), "Riverine Ecosystems and Livelihoods programme, Wildlife Conservation Trust (REAL-WCT). 2023. FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track water levels in large rivers of India’s Gangetic plains. R Shiny App version. URL: https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/."),
-                      tags$li(strong("Paper :"), "Ramya Roopa, S. & Kelkar, N. (2023). FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track water levels in large rivers of India’s Gangetic plains. Hydrological Processes.")
+                      tags$li(strong("App :"), "Riverine Ecosystems and Livelihoods programme, Wildlife Conservation Trust (REAL-WCT). 2023. FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track flood-season water levels of large rivers of India’s Gangetic plains. R Shiny App version.", 
+                              tags$a(href = "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", target = "_blank")),
+                      tags$li(strong("Paper :"), "Ramya Roopa, S. & Kelkar, N. (2023). FLOWIDER 1.0: a web-based interface to track flood-season water levels of large rivers of India’s Gangetic plains. Environmental Modelling & Software (Submitted).")
                     ),
                     h4(strong("Code Availability"), style = "font-family: Avenir"),
                     tags$p("The", tags$i(class = "fab fa-r-project", title = "R Project"), "code for this app is publicly available in",  tags$a(href = "https://github.com/WCT-Riverine-Ecology-And-Livelihoods/FLOWIDER-shiny-app/tree/main", "this", target = "_blank"), tags$i(class = "fa-brands fa-github", title="Github"), "repository.")
