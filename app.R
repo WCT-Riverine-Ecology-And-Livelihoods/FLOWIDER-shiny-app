@@ -114,7 +114,6 @@ ui <- tagList(
                                               multiple = T),
                                   p(""),
                                   p("After selecting the river above, please select a maximum of two stations on the map for viewing graph.", style = "color:blue"), 
-                                  br(),
                                   textInput(inputId = "selectedstation", label = "Selected stations:", value = ""),
                                   actionButton("viewgraph", "View graph"),
                                   actionButton("clearstations", "Clear selection")
