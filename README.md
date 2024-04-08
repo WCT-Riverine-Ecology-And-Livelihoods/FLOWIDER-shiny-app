@@ -3,4 +3,4 @@ This repository contains the R code for a shiny app - <a href="https://wct-river
 
 The underlying data has been retrieved and compiled from various data sources, including the websites of state water resources departments and the <a href="www.ffs.india-water.gov.in">Central Water Commission</a>. The FLOWIDER app presents a map view of locations of gauging sites, and time-based and graphical options to track the time-series of two stations of interest at once. It also contains detailed metadata relevant to each station such as, stations located upstream and downstream of the selected stations, the zero reference level and danger level (for flooding risks), links to publicly available satellite-based datasets on river water level and discharge, and site location information.
 
-Pre-print link: https://dx.doi.org/10.2139/ssrn.4656802
+Pre-print link: To be added
