@@ -264,7 +264,7 @@ ui <- tagList(
                     h4(strong("Citation"), style = "font-family: Avenir"),
                     tags$ul(
                       tags$li(strong("App :"), "Riverine Ecosystems and Livelihoods programme, Wildlife Conservation Trust (REAL-WCT). 2023. FLOWIDER 1.0: Flow and Water Level (FLOW) Integrated Datasets (ID) for Ecological studies of Rivers (ER) - a web-based interface to track flood-season water levels of large rivers of India’s Gangetic plains. R Shiny App version.", 
-                              tags$a(href = "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", target = "_blank")),
+                              tags$p(tags$a(href = "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", "https://wct-riverine-ecology-and-livelihoods.shinyapps.io/FLOWIDER_app/", target = "_blank"))),
                       tags$li(strong("Paper :"), "Ramya Roopa, S. & Kelkar, N. (2024). FLOWIDER 1.0: a web-based interface to track flood-season water levels of large rivers of India’s Gangetic plains.")
                     ),
                     h4(strong("Code Availability"), style = "font-family: Avenir"),
