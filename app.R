@@ -69,16 +69,17 @@ riverstation_icon <- makeIcon(iconUrl = "www/pin_green.png",
 
 ##ui--------
 ui <- tagList( 
-        includeCSS("www/styles.css"), ##adding css element outside navbarPage to avoid ghost tabs from appearing
+        # includeCSS("www/styles.css"), ##adding css element outside navbarPage to avoid ghost tabs from appearing
         tags$script(src = "https://kit.fontawesome.com/8bd76483c6.js"),
         navbarPage(
-           title = div(
-             div(
-               id = "img-id",
-               img(src = "WCTMainLogoWhite_edited.png", height = "57.5px", width = "auto")
-             ),
-             "FLOWIDER: River Flood Tracking, Gangetic Plains"
-           ),
+           title = 
+             div(img(src = "FLOWIDER_no_Text.png", height = "58.5px", width = "auto",
+                     style = "padding-bottom: 5px"), 
+                 "FLOWIDER: River Flood Tracking, Gangetic Plains", 
+                 img(src = "WCTMainLogoWhite_edited.png", height = "57.5px", width = "auto", 
+                     style = "position: absolute;
+                              top: 1px;
+                              right: 2%;")),
            id = "navbar",
            header = tags$head(
              tags$style(HTML('.navbar-nav > li > a, .navbar-brand {
