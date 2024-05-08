@@ -74,7 +74,8 @@ ui <- tagList(
         navbarPage(
            title = 
              div(img(src = "FLOWIDER_no_Text.png", height = "58.5px", width = "auto",
-                     style = "padding-bottom: 5px"), 
+                     style = "padding-right: 3px;
+                              padding-bottom: 5px"), 
                  "FLOWIDER: River Flood Tracking, Gangetic Plains", 
                  img(src = "WCTMainLogoWhite_edited.png", height = "57.5px", width = "auto", 
                      style = "position: absolute;
