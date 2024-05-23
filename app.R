@@ -73,7 +73,7 @@ ui <- tagList(
         tags$script(src = "https://kit.fontawesome.com/8bd76483c6.js"),
         navbarPage(
            title = 
-             div(img(src = "FLOWIDER_no_Text.png", height = "58.5px", width = "auto",
+             div(img(src = "FLOWIDER_no_TextWhiteBg.png", height = "58.5px", width = "auto",
                      style = "padding-right: 3px;
                               padding-bottom: 5px"), 
                  "FLOWIDER: River Flood Tracking, Gangetic Plains", 
